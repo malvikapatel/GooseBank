@@ -68,7 +68,12 @@
       "**/hardhat-ts/**"
     ]
   },
-  "dependencies": {},
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/material": "^5.10.5"
+  },
   "devDependencies": {
     "husky": "^7.0.2",
     "lint-staged": "^13.0.3"
