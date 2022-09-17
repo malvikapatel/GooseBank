@@ -4,23 +4,22 @@ import profilesettingimg from "../img/profilesetting.png";
 import resourcesimg from "../img/resources.png";
 import shopimg from "../img/shop.png";
 import Grid from "@material-ui/core/Grid";
+import { Divider } from "antd";
 //import { Outlet } from "react-router-dom";
 const Home = () => {
   return (
     <div>
-      <Grid container rowSpacing={1} columnSpacing={{ lg: 1, sm: 2, md: 3 }}>
-        <Grid item lg="auto">
+      <Grid container spacing={1}>
+        <Grid item lg={6} md={5} sm={4.5}>
           <HomeCard route="/MyWallet" title="MyWallet" img={walletimg} />
         </Grid>
-        <Grid item lg="auto">
+        <Grid item lg={6} md={5} sm={4.5}>
           <HomeCard route="/Shop" title="Shop" img={shopimg} />
         </Grid>
-      </Grid>
-      <Grid container rowSpacing={1} columnSpacing={{ lg: 1, sm: 2, md: 3 }}>
-        <Grid item lg="auto">
+        <Grid item lg={6} md={5} sm={4.5}>
           <HomeCard route="/Resources" title="Resources" img={resourcesimg} />
         </Grid>
-        <Grid item lg="auto">
+        <Grid item lg={6} md={5} sm={4.5}>
           <HomeCard route="/ProfileSettings" title="Profile" img={profilesettingimg} />
         </Grid>
       </Grid>

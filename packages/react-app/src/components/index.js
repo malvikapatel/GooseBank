@@ -26,3 +26,6 @@ export { default as NetworkSwitch } from "./NetworkSwitch";
 export { default as MultiAddressInput } from "./MultiAddressInput";
 export { default as TokenSelect } from "./TokenSelect";
 export { default as HomeCard } from "./HomeCard";
+export { default as TransactionsTable } from "./TransactionsTable";
+export { default as ShopCarousel } from "./ShopCarousel";
+export { default as RewardsCarousel } from "./RewardsCarousel";
