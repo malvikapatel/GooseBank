@@ -1,4 +1,5 @@
 export { default as Home } from "./Home";
-export { default as ExampleUI } from "./ExampleUI";
-export { default as Hints } from "./Hints";
-export { default as Subgraph } from "./Subgraph";
+export { default as MyWallet } from "./MyWallet";
+export { default as Shop } from "./Shop";
+export { default as ProfileSettings } from "./ProfileSettings";
+export { default as Resources } from "./Resources";
