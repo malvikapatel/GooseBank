@@ -8,6 +8,6 @@ By educating children from a young age about secure transactions, financial lite
 
 Still coming in, please wait :)
 
-## How to use
+## How To Use
 
 ## Next Steps
