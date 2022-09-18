@@ -25,8 +25,14 @@ export default function Resources({
   const [newPurpose, setNewPurpose] = useState("loading...");
 
   return (
-    <div>
-      <ResourcesTable />
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        border: "1px solid #cccccc",
+      }}
+    >
       <List sx={{ width: "100%", maxWidth: 360, bgcolor: "grey" }}>
         <ListItem>
           <ListItemAvatar>
@@ -34,7 +40,7 @@ export default function Resources({
               <MenuBookIcon />
             </Avatar>
           </ListItemAvatar>
-          <ListItemText primary="Budeting" secondary="Understadning your expenses through crypto" />
+          <ListItemText primary="Budgeting" secondary="Understanding your expenses through crypto" />
         </ListItem>
         <ListItem>
           <ListItemAvatar>

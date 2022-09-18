@@ -1,6 +1,6 @@
 import React from "react";
 import { Typography } from "antd";
-
+//import gooseimg from "../img/goose.png";
 const { Title, Text } = Typography;
 
 // displays a page header
